@@ -1,0 +1,6 @@
+flask
+flask-cors
+cerberus
+pillow
+numpy
+opencv-python
