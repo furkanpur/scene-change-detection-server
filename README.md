@@ -20,7 +20,7 @@ docker image build -t scd-server .
 ## Run a Docker container
 
 ```
-docker run -p 5000:5000 -d --name scd-server  scd-server
+docker run --gpus all -p 5000:5000 -d --name scd-server  scd-server
 ```
 
 ## API usage
